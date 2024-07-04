@@ -1,0 +1,15 @@
+.Candidate {
+  max-width: 1000px;
+  background-color: rgb(146, 146, 146);
+  color: #fff;
+  font-size: 15px;
+  min-height: 50px;
+  margin: 50px 0 0 0;
+  &_user {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+.delete {
+  cursor: pointer;
+}
